@@ -1,0 +1,50 @@
+
+.formMain{
+    background-color: white;
+    min-width: 250px;
+    max-width: 600px;
+    padding: .5em;
+    border-radius: .5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+.formLogo{
+    margin: 0;
+    margin-bottom: .5em;
+}
+
+.formInput{
+    display: grid; 
+    gap: .5em;
+}
+
+.firstNameInput,.lastNameInput,.emailInput{
+    border-radius: .25em;
+    border: none;
+    outline: none;
+    background-color: rgb(234, 234, 234);
+    padding: .5em;
+}
+
+.formButton{
+    border-radius: .25em;
+    border: none;
+    cursor: pointer;
+    padding: .5em;
+    background-color:  rgb(76, 159, 248);
+    color: white;
+}
+
+.formButton:hover{
+    transform: scale(1.025);
+}
+
+.success-submitted{
+    background-color: rgb(59, 130, 245);
+    padding: .25em;
+    margin: 0;
+    border-radius: .25em;
+    color: white;
+}
